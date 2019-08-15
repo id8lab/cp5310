@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+<script>
+function onClickChangeBet(bet) {
+	document.getElementById("bet").innerHTML = "Bet: " + bet.toString();
+}
+
+</script>
+</head>
+
+<body>
+<p id="bet">Bet:</p> 
+<p> 
+<img src="btn_single1.png" id="single_bet" onClick="onClickChangeBet(50)" />
+ 
+<img src="btn_double1.png" id="double_bet" onClick="onClickChangeBet(100)" />
+
+<img src="btn_triple1.png" id="triple_bet" onClick="onClickChangeBet(150)" />
+</p>
+</body>
+</html>
+
